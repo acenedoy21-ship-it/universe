@@ -1,0 +1,262 @@
+{
+  "welcome": {
+    "title": "GitUniverse",
+    "subtitle": "Interaktive Sonnensystem-Simulation",
+    "wip": "In Arbeit:",
+    "wipMessage": "Dieses Herzensprojekt entwickelt sich ständig weiter. Folge mir für Updates oder melde dich, wenn du Features beta-testen oder Ideen teilen möchtest!",
+    "connectBluesky": "Folge mir auf Bluesky",
+    "subscribeYoutube": "Abonniere auf YouTube",
+    "buyMeACoffee": "Kauf mir einen Kaffee",
+    "startExploring": "Entdeckung starten",
+    "gotIt": "Verstanden",
+    "blurb": "Ein interaktives Sonnensystem zum Erkunden, Stören und Spielen. Klick dich durch -- alles darf angefasst werden.",
+    "whatsNew": "Neuigkeiten",
+    "surveyPrompt": "2 Minuten Zeit? Sag uns, was du als nächstes sehen möchtest",
+    "changes": [
+      "Lichtgeschwindigkeit-Lektion - beobachte, wie Licht durch das Sonnensystem reist",
+      "Rayleigh-Streuung - realistische Himmelsfarben und Sonnenuntergänge basierend auf der Atmosphärenzusammensetzung",
+      "Fehlerbehebungen und Verbesserungen beim Laden der Übersetzungen"
+    ]
+  },
+  "feedback": {
+    "sourceTitle": "Kurze Frage",
+    "sourceDescription": "Wo hast du von GitUniverse erfahren? (optional)",
+    "sourceLabel": "Wo hast du von GitUniverse erfahren?",
+    "sourcePlaceholder": "YouTube, Freunde, Suche...",
+    "featuresTitle": "Deine Ideen für GitUniverse",
+    "featuresDescription": "Welche Funktionen wünschst du dir in GitUniverse?",
+    "featuresLabel": "Vorschläge",
+    "featuresPlaceholder": "Was GitUniverse deiner Meinung nach noch braucht...",
+    "submit": "Senden",
+    "skip": "Überspringen",
+    "thankYou": "Vielen Dank! Dein Feedback hilft uns sehr."
+  },
+  "betaTester": {
+    "title": "Lust, Beta-Tester:in zu werden?",
+    "description": "Hey! Wir kennen uns zwar nicht persönlich, aber dein Browser verrät mir, dass du GitUniverse schon über {{threshold}} Mal geöffnet hast. Da du die App anscheinend magst, frage ich einfach mal: Hättest du Lust auf frühzeitigen Zugriff auf neue Versionen, bevor sie öffentlich werden?",
+    "privacy": "Diese Zählung bleibt nur auf deinem Gerät. Nichts wird gesendet, bis du unten deine E-Mail-Adresse einträgst.",
+    "emailLabel": "Deine E-Mail-Adresse",
+    "emailPlaceholder": "du@example.com",
+    "submit": "Anmelden",
+    "skip": "Jetzt nicht",
+    "thankYou": "Danke! Ich melde mich bei der nächsten Beta-Version bei dir.",
+    "inlineTitle": "Beta-Tester-Programm",
+    "inlineDesc": "Du hast GitUniverse schon oft genutzt. Lust, als Beta-Tester:in frühzeitig Zugriff auf neue Versionen zu erhalten? Trag unten einfach deine E-Mail-Adresse ein.",
+    "registered": "Du bist angemeldet. Danke!"
+  },
+  "changelog": {
+    "title": "GitUniverse {{version}}",
+    "whatsNew": "Neu in {{version}}"
+  },
+  "starEditor": {
+    "editStar": "Stern bearbeiten: {{name}}",
+    "starType": "{{spectralClass}}-Stern",
+    "mass": "Masse:",
+    "radius": "Radius:",
+    "luminosity": "Leuchtkraft:",
+    "temperature": "Temperatur:",
+    "advancedOverrides": "Erweiterte Optionen",
+    "overrideRadius": "Radius überschreiben",
+    "overrideLuminosity": "Leuchtkraft überschreiben",
+    "habitableZone": "Habitable Zone",
+    "innerEdge": "Innerer Rand:",
+    "optimal": "Optimal:",
+    "outerEdge": "Äußerer Rand:",
+    "applyChanges": "Änderungen anwenden",
+    "stellarAge": "Alter:",
+    "phase": "Phase:",
+    "mainSequenceLifetime": "Hauptreihen-Lebensdauer:",
+    "scaleTip": "Tipp: Aktiviere in den Einstellungen den maßstabsgetreuen Modus, um die tatsächliche, vergrößerte Sterngröße anzuzeigen. Im Normalmodus ist die angezeigte Sterngröße begrenzt, um eine Überlappung mit Planetenbahnen zu vermeiden – ein gealterter Stern kann dadurch kleiner wirken, als er tatsächlich ist."
+  },
+  "performance": {
+    "title": "Leistung",
+    "fps": "FPS",
+    "avg": "Ø:",
+    "ms": "ms",
+    "rendering": "Rendering",
+    "drawCalls": "Draw Calls:",
+    "triangles": "Dreiecke:",
+    "geometries": "Geometrien:",
+    "simulation": "Simulation",
+    "bodies": "Objekte:",
+    "physics": "Physik:",
+    "memory": "Speicher",
+    "jsHeap": "JS Heap:",
+    "mb": "MB"
+  },
+  "help": {
+    "controls": "Steuerung",
+    "clickTap": "Klick/Tippen: Objekt wählen",
+    "orbit": "Rotieren: Links ziehen / 1 Finger",
+    "pan": "Verschieben: Rechts ziehen / 2 Finger",
+    "zoom": "Zoom: Scrollen / Pinch",
+    "space": "Leertaste: Pause",
+    "aboutWelcome": "Info / Willkommen",
+    "privacy": "Datenschutz",
+    "analytics": "Analysedaten",
+    "analyticsDescription": "Wir nutzen Umami, ein datenschutzfreundliches Analysetool. Umami:",
+    "noCookies": "Verwendet keine Cookies",
+    "noPersonalData": "Sammelt keine persönlichen Daten",
+    "noCrossSite": "Verfolgt nicht über Seiten hinweg",
+    "dataNote": "Wir sammeln nur anonyme, aggregierte Daten (Seitenaufrufe, Browsertyp, Land).",
+    "advanced": "Erweitert",
+    "perfMonitor": "Leistungsmonitor",
+    "showEventHorizons": "Ereignishorizonte anzeigen",
+    "accurateEventHorizons": "Genaue Ereignishorizonte",
+    "feedback": "Feedback",
+    "buyMeACoffee": "Kauf mir einen Kaffee"
+  },
+  "dustCanvas": {
+    "drawing": "Zeichnen",
+    "simulating": "Simulieren",
+    "clear": "Leeren",
+    "play": "Start",
+    "drawMore": "Weiter zeichnen",
+    "sound": "Ton",
+    "soundOn": "Ton an",
+    "soundOff": "Ton aus"
+  },
+  "skyView": {
+    "exitSkyView": "Himmelsansicht verlassen",
+    "realSizes": "Reale Größen",
+    "terrain": "Gelände",
+    "movement": "Bewegung",
+    "changeLocation": "Standort ändern",
+    "visibleBodies": "Sichtbare Objekte",
+    "noBodiesAboveHorizon": "Keine Objekte über dem Horizont",
+    "movementHint": "Ziehen zum Umschauen -- WASD zum Laufen -- Shift zum Rennen",
+    "exitLessonEsc": "Lektion beenden (Esc)",
+    "previousMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat",
+    "map": "Karte"
+  },
+  "starComparison": {
+    "title": "Stern tauschen",
+    "sun": "Sonne",
+    "stars": {
+      "sun": "Unser Heimatstern - ein gelber Zwerg der Hauptreihe vom Typ G",
+      "proximaCentauri": "Nächster Stern zur Sonne - ein lichtschwacher roter Zwerg in 4,2 Lichtjahren Entfernung",
+      "siriusA": "Hellster Stern am irdischen Nachthimmel - ein heißer weißer Stern vom Typ A",
+      "arcturus": "Hellster Stern am Nordhimmel - ein alternder oranger Riese",
+      "aldebaran": "Das Auge des Stiers - ein kühler oranger Riese in 65 Lichtjahren Entfernung",
+      "pollux": "Nächster Riesenstern zur Erde - ein oranger Riese mit bestätigtem Exoplaneten",
+      "rigel": "Blauer Überriese im Orion - einer der leuchtkräftigsten sichtbaren Sterne",
+      "betelgeuse": "Roter Überriese in Orions Schulter - könnte jederzeit als Supernova explodieren",
+      "antares": "Herz des Skorpions - ein massereicher roter Überriese am Ende seines Lebens",
+      "deneb": "Schwanz des Schwans - ein extrem leuchtkräftiger blau-weißer Überriese",
+      "vyCanisMajoris": "Einer der größten bekannten Sterne - ein roter Hyperriese mit 1.420-fachem Sonnenradius",
+      "uyScuti": "Einer der größten je vermessenen Sterne - ein roter Überriese mit 1.708-fachem Sonnenradius"
+    }
+  },
+  "skyViewTips": {
+    "eclipticTitle": "Die Ekliptik",
+    "eclipticStep1": "Fällt dir auf, wie alle Planeten in einer Linie am Himmel stehen? Das ist kein Zufall. Sie umkreisen die Sonne alle in fast derselben flachen Ebene, der sogenannten Ekliptik.",
+    "eclipticStep2": "Astronomen der Antike bemerkten dieses Band bereits vor Tausenden von Jahren. Von jedem Planeten im Sonnensystem aus würdest du die anderen Planeten auf einer ähnlichen Bahn über deinen Himmel ziehen sehen, da sie alle nahezu dieselbe Bahnebene teilen.",
+    "showMe": "Zeig es mir",
+    "next": "Weiter",
+    "gotIt": "Verstanden"
+  },
+  "bodyList": {
+    "addAsteroids": "Asteroidengürtel hinzufügen",
+    "removeAsteroids": "Entfernen"
+  },
+  "learn": {
+    "title": "Lernen",
+    "guidedLessons": "Geführte Lektionen",
+    "quickTips": "Schnelltipps",
+
+    "ecliptic": {
+      "title": "Die Ekliptik",
+      "desc": "Alle Planeten umkreisen die Sonne in fast derselben flachen Ebene. Von jeder Oberfläche im Sonnensystem erscheinen sie als Linie am Himmel.",
+      "action": "Wähle einen Planeten und tippe dann auf Himmelsansicht."
+    },
+    "habitableZones": {
+      "title": "Habitable Zonen",
+      "desc": "Der Bereich um einen Stern, in dem flüssiges Wasser auf der Oberfläche eines Planeten existieren könnte. Bearbeite die Eigenschaften eines Sterns und beobachte, wie sich die Zone verschiebt.",
+      "action": "Wähle die Sonne und bearbeite dann ihre Masse oder Leuchtkraft."
+    },
+    "gravity": {
+      "title": "Gravitationswechselwirkungen",
+      "desc": "Jedes Objekt zieht jedes andere Objekt an. Erstelle einen massereichen Körper in der Nähe eines Planeten und beobachte echte Physik.",
+      "action": "Öffne Erstellen, erzeuge einen Jupiter-großen Planeten nahe der Erde."
+    },
+    "playgrounds": "Spielplätze",
+    "videos": {
+      "title": "Videos",
+      "channelTitle": "Auf YouTube ansehen",
+      "channelDesc": "Tutorials, Demos und Hintergründe zu GitUniverse."
+    },
+    "scatteringPlayground": {
+      "title": "Streuungs-Spielplatz",
+      "desc": "Mische atmosphärische Gase und sieh, wie sich die Himmelsfarbe in Echtzeit verändert. Erkunde die Physik der Rayleigh- und Mie-Streuung."
+    },
+    "missions": {
+      "happeningNow": "Gerade jetzt",
+      "prelaunch": "Start in Kürze",
+      "completed": "Mission abgeschlossen",
+      "missionDay": "Missionstag",
+      "distEarth": "Von der Erde",
+      "distMoon": "Vom Mond",
+      "speed": "Geschwindigkeit",
+      "crew": "Besatzung",
+      "showInSim": "In Simulation anzeigen",
+      "launchCountdown": "Start in"
+    }
+  },
+  "support": {
+    "title": "GitUniverse unterstützen",
+    "description": "GitUniverse ist ein kostenloses Bildungstool. Du kannst das Projekt unterstützen, indem du es teilst oder mir auf YouTube, Substack und Bluesky folgst, wo ich Entwicklungs-Updates poste.",
+    "share": "Dieses Tool teilen",
+    "coffee": "Kauf mir einen Kaffee",
+    "copied": "Link kopiert!",
+    "sendSuggestions": "Vorschläge senden",
+    "reportBug": "Fehler melden"
+  },
+  "crash": {
+    "title": "Etwas ist schiefgelaufen",
+    "description": "GitUniverse ist auf einen unerwarteten Fehler gestoßen. Du kannst uns helfen, ihn zu beheben, indem du einen Bericht sendest.",
+    "descriptionLabel": "Was hast du getan? (optional)",
+    "descriptionPlaceholder": "Ich habe mir den Saturn angesehen, als...",
+    "includeLogs": "Aktuelle Protokolle beifügen",
+    "showDetails": "Fehlerdetails anzeigen",
+    "hideDetails": "Fehlerdetails ausblenden",
+    "sendReport": "Bericht senden",
+    "reload": "Neu laden",
+    "cancel": "Abbrechen",
+    "thankYou": "Vielen Dank! Dein Bericht hilft uns, dies zu beheben.",
+    "emailLabel": "E-Mail (optional)",
+    "emailPlaceholder": "Damit wir dir antworten können",
+    "bugReportTitle": "Fehler melden",
+    "bugReportDescription": "Etwas kaputt? Bitte beschreibe so genau wie möglich, was du gemacht hast, was du erwartet hast und was stattdessen passiert ist.",
+    "bugReportLabel": "Was ist passiert?",
+    "bugReportPlaceholder": "Ich habe mir die Saturnringe angeschaut, als die App eingefroren ist..."
+  },
+  "quickTour": {
+    "askPrompt": "Ein paar Tipps zum Einstieg?",
+    "yes": "Gerne",
+    "no": "Nein danke",
+    "scale": {
+      "title": "Nicht maßstabsgetreu",
+      "body": "Planeten sind vergrößert dargestellt. Hier umschalten für echte Größen."
+    },
+    "spawn": {
+      "title": "Erstellen",
+      "body": "Sterne, Planeten und Monde erzeugen."
+    },
+    "time": {
+      "title": "Zeit",
+      "body": "Beschleunigen, verlangsamen oder anhalten."
+    },
+    "learn": {
+      "title": "Lernen",
+      "body": "Geführte Lektionen über das Weltall."
+    },
+    "map": {
+      "title": "Karte",
+      "body": "Erkunde die Milchstraße."
+    },
+    "next": "Weiter",
+    "gotIt": "Verstanden"
+  },
+  "stopTracking": "Verfolgung beenden"
+}

@@ -1,0 +1,279 @@
+{
+  "ui": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "skip": "Skip",
+    "continue": "Continue",
+    "finish": "Finish",
+    "waitingForAction": "Waiting for action...",
+    "steps": "{{count}} steps",
+    "difficulty": {
+      "beginner": "beginner",
+      "intermediate": "intermediate",
+      "advanced": "advanced"
+    },
+    "minimize": "Minimize",
+    "expand": "Expand"
+  },
+  "solar-system-tour": {
+    "title": "Look Around the Solar System",
+    "description": "Get oriented with the planets, see how empty space really is, and explore Earth and Jupiter up close.",
+    "steps": {
+      "intro": {
+        "title": "The Solar System",
+        "content": "Welcome! You're looking at our Solar System. The planets are shown larger than real size so you can see them. Let's see what it really looks like..."
+      },
+      "true-scale": {
+        "title": "The Real Scale",
+        "content": "This is the real scale - the planets are so tiny they nearly vanish! Space is mostly empty. We'll switch back to the exaggerated view so you can actually see things."
+      },
+      "select-earth": {
+        "title": "Select Earth",
+        "content": "Click on Earth in the body list, or find it in the 3D view and click on it."
+      },
+      "earth-info": {
+        "title": "Our Home Planet",
+        "content": "Earth orbits the Sun at about 150 million km - a distance called 1 Astronomical Unit (AU). It takes one year to complete an orbit. Notice the info panel showing its real physical properties."
+      },
+      "select-jupiter": {
+        "title": "Find Jupiter",
+        "content": "Now click on Jupiter - the largest planet. It's about 5 times farther from the Sun than Earth."
+      },
+      "done": {
+        "title": "Keep Exploring!",
+        "content": "You can select any body to see its properties. Open the Learn menu in the toolbar for more guided lessons on spawning objects, sky view, and gravitational experiments."
+      }
+    }
+  },
+  "spawn-first-object": {
+    "title": "Spawn Your First Object",
+    "description": "Learn to create celestial bodies and watch them interact through real gravitational physics.",
+    "steps": {
+      "intro": {
+        "title": "Real Physics",
+        "content": "In GitUniverse, every object you create obeys Newton's law of universal gravitation. Every body pulls on every other body. Let's see this in action."
+      },
+      "open-spawn": {
+        "title": "Open the Spawn Panel",
+        "content": "Click the \"$t(common:toolbar.spawnFull)\" button in the toolbar to open the creation panel."
+      },
+      "place-object": {
+        "title": "Pick and Place",
+        "content": "Choose any preset (try a gas giant or rocky planet), then click in space to place it. Drag to set its initial velocity."
+      },
+      "unpause": {
+        "title": "Watch It Move",
+        "content": "Now let the simulation run and watch your object interact with the existing planets through gravity. If the simulation is paused, press play or hit Space to resume."
+      },
+      "done": {
+        "title": "Newton's Universal Gravitation",
+        "content": "Every object pulls on every other object with a force proportional to their masses and inversely proportional to the square of the distance between them. What you just saw is the same physics that keeps the Moon in orbit and makes apples fall."
+      }
+    }
+  },
+  "sky-view-ecliptic": {
+    "title": "Sky View: The Ecliptic",
+    "description": "Stand on Earth's surface and discover why all planets line up across the sky - the ecliptic plane.",
+    "steps": {
+      "intro": {
+        "title": "A Band Across the Sky",
+        "content": "Ancient astronomers noticed something remarkable: the Sun, Moon, and all visible planets follow the same narrow band across the sky. They called this band the ecliptic. Let's see it for ourselves."
+      },
+      "select-earth": {
+        "title": "Select Earth",
+        "content": "First, select Earth from the body list so we can enter its sky view."
+      },
+      "enter-sky-view": {
+        "title": "Enter Sky View",
+        "content": "In the body info panel, click the Sky View button to stand on Earth's surface and look up at the sky."
+      },
+      "look-around": {
+        "title": "Look Around",
+        "content": "Here's the Sun! Drag to look around the sky. You can see stars and possibly some planets. Notice how the planets cluster along the same band as the Sun rather than being scattered randomly."
+      },
+      "spot-planet": {
+        "title": "Spot a Planet",
+        "content": "Check the body list for visible planets. Click on any planet's name to look directly at it. Notice where it sits relative to the Sun's path."
+      },
+      "explain-ecliptic": {
+        "title": "Why the Line?",
+        "content": "All planets orbit the Sun in nearly the same flat plane - like marbles rolling on a table. When you stand on one of those marbles and look outward, the other marbles appear in a line across your sky. That line is the ecliptic."
+      },
+      "ancient-knowledge": {
+        "title": "Ancient Astronomers Knew This",
+        "content": "The word 'planet' comes from the Greek for 'wanderer' - because planets slowly move along the ecliptic while the stars stay fixed. The zodiac constellations are the ones that lie along this same band. For thousands of years, tracking these wanderers was one of humanity's greatest scientific achievements."
+      },
+      "done": {
+        "title": "Explore More Skies",
+        "content": "You can exit Sky View using the button in the top-left corner. Try entering Sky View from other planets - Mars, Jupiter, or even Mercury. The ecliptic will look slightly different from each world, but the principle is the same."
+      }
+    }
+  },
+  "venus-jupiter-perturbation": {
+    "title": "What if Venus was Jupiter?",
+    "description": "Discover how mass affects orbital mechanics by transforming Venus into a gas giant and watching the chaos unfold.",
+    "steps": {
+      "intro": {
+        "title": "Welcome to the Experiment",
+        "content": "Let's explore what happens when we dramatically change a planet's mass. We'll transform Venus into something as massive as Jupiter and watch how it affects the inner solar system."
+      },
+      "find-venus": {
+        "title": "Find Venus",
+        "content": "First, let's locate Venus - the second planet from the Sun. Click on Venus in the planet list or in the 3D view to select it."
+      },
+      "explain-venus": {
+        "title": "About Venus",
+        "content": "Venus is similar to Earth in size - about 0.815 Earth masses. It orbits closer to the Sun than we do. But what if it were much, MUCH heavier?"
+      },
+      "click-replace": {
+        "title": "Replace Venus",
+        "content": "Click the 'Replace' button in the selected body panel. This will let us swap Venus for something else while keeping it in the same orbit."
+      },
+      "select-jupiter-preset": {
+        "title": "Make it Massive!",
+        "content": "In the spawn panel, make sure Planet is selected, then drag the size slider all the way to the right to pick Gas Giant - 318 times Earth's mass, the same as Jupiter."
+      },
+      "confirm-replace": {
+        "title": "Apply the Change",
+        "content": "Now click 'Apply Replacement' to transform Venus into a Gas Giant. The simulation will continue and you can watch the chaos unfold!"
+      },
+      "observe-perturbation": {
+        "title": "Watch the Chaos!",
+        "content": "Look at Mercury! The massive 'Venus' is dramatically pulling on it. Earth's orbit is also being affected. This is gravitational perturbation in action!"
+      },
+      "wait-for-effect": {
+        "title": "Fast Forward",
+        "content": "Let's watch for about 3 simulated years to see the full effect. Speed up time if you want to see it faster!"
+      },
+      "conclusion": {
+        "title": "Gravitational Perturbation!",
+        "content": "You've just witnessed gravitational perturbation - how a massive body can disrupt the orbits of nearby objects. Jupiter's gravity scatters some asteroids away from Earth, though it can also nudge others closer. Its gravity is also why the asteroid belt never formed into a planet. The gravity of massive bodies shapes everything around them!"
+      }
+    }
+  },
+  "orbital-mechanics": {
+    "title": "Orbital Mechanics: The Math of Orbits",
+    "description": "Discover the equations that govern planetary motion - from Kepler's laws to escape velocity - with interactive demonstrations.",
+    "steps": {
+      "intro": {
+        "title": "The Math Behind Orbits",
+        "content": "Planets don't move randomly - they follow precise mathematical rules discovered over centuries. In this lesson you'll learn the equations that predict every orbit in the universe, from Mercury to distant exoplanets."
+      },
+      "kepler-1": {
+        "title": "Kepler's First Law: Ellipses",
+        "content": "Every planet orbits in an ellipse with the Sun at one focus. The eccentricity (e) measures how stretched the ellipse is: 0 is a perfect circle, closer to 1 is very elongated."
+      },
+      "find-mercury": {
+        "title": "See an Elliptical Orbit",
+        "content": "Select Mercury from the body list to see the most eccentric orbit of the inner planets. Notice how its distance from the Sun varies noticeably as it orbits."
+      },
+      "kepler-2": {
+        "title": "Kepler's Second Law: Equal Areas",
+        "content": "A line from the Sun to a planet sweeps equal areas in equal times. This means planets move faster when closer to the Sun (perihelion) and slower when farther away (aphelion)."
+      },
+      "kepler-3": {
+        "title": "Kepler's Third Law",
+        "content": "The square of a planet's orbital period is proportional to the cube of its average distance from the Sun. Farther planets take much longer to orbit."
+      },
+      "newton": {
+        "title": "Newton's Law of Gravitation",
+        "content": "Every object attracts every other object with a force that depends on both masses (M and m) and weakens with the square of the distance (r). Double the distance, gravity drops to one quarter."
+      },
+      "orbital-velocity": {
+        "title": "Orbital Velocity",
+        "content": "For a circular orbit, the required speed depends only on the central body's mass and the orbital radius. Closer orbits need higher speeds."
+      },
+      "escape-velocity": {
+        "title": "Escape Velocity",
+        "content": "To escape a body's gravity entirely, you need to reach escape velocity - exactly \u221A2 times the circular orbital speed at that distance. Below this speed, you'll fall back."
+      },
+      "try-it": {
+        "title": "Try It Yourself",
+        "content": "Open the $t(common:toolbar.spawn) panel and place an object in the solar system. Try giving it different velocities - too slow and it falls inward, too fast and it escapes, just right and it orbits."
+      },
+      "watch": {
+        "title": "Watch Your Creation",
+        "content": "Watch how your object moves. Does it orbit, escape, or crash? The same equations you just learned predict its path exactly."
+      },
+      "conclusion": {
+        "title": "The Universe Runs on Math",
+        "content": "From Kepler's geometric laws to Newton's universal gravitation, these equations describe every orbit - whether it's the ISS circling Earth or a comet falling toward the Sun. The same math that predicts Mercury's path also guided spacecraft to Pluto."
+      }
+    }
+  },
+  "rayleigh-scattering": {
+    "title": "Why is the Sky Blue?",
+    "description": "Discover how atmospheric composition determines sky color through Rayleigh scattering, from Earth's blue to Mars' butterscotch.",
+    "steps": {
+      "intro": {
+        "title": "Light and Atmosphere",
+        "content": "When sunlight enters an atmosphere, gas molecules scatter it in all directions. But not all colors scatter equally - shorter wavelengths (blue/violet) scatter far more strongly than longer ones (red/orange). This is called Rayleigh scattering."
+      },
+      "lambda4": {
+        "title": "The 1/lambda^4 Law",
+        "content": "Rayleigh scattering intensity is proportional to 1/lambda^4. This means blue light (440nm) scatters about 5.5 times more than red light (680nm). Violet scatters even more, but our eyes are less sensitive to it - so we see blue."
+      },
+      "select-earth": {
+        "title": "Select Earth",
+        "content": "Let's see Rayleigh scattering in action. Select Earth from the body list."
+      },
+      "earth-sky": {
+        "title": "Earth's Blue Sky",
+        "content": "Enter Sky View to see the familiar blue sky. Earth's atmosphere is 78% nitrogen and 21% oxygen - both colorless gases. The blue color comes entirely from Rayleigh scattering of sunlight by these molecules."
+      },
+      "sunset": {
+        "title": "Why Sunsets are Red",
+        "content": "Look toward the Sun and speed up time. As the Sun drops toward the horizon, its light must pass through more atmosphere. The blue wavelengths get scattered away along this longer path, leaving the red and orange that create the sunset. The sky near the horizon reddens while the zenith stays blue."
+      },
+      "other-worlds": {
+        "title": "Other Worlds, Other Skies",
+        "content": "Exit sky view. Not every planet has a blue sky. Mars has a thin CO2 atmosphere with iron oxide dust particles. These dust grains are larger than gas molecules, so they scatter via Mie scattering - which favors longer wavelengths and is the opposite of Rayleigh. The result is a butterscotch-colored sky."
+      },
+      "select-mars": {
+        "title": "Visit Mars",
+        "content": "Now select Mars and enter its Sky View to see the difference."
+      },
+      "conclusion": {
+        "title": "Sky Colors Across the Solar System",
+        "content": "Every atmosphere tells a story through its sky color. Earth: blue (N2/O2 Rayleigh scattering). Mars: butterscotch (iron oxide dust Mie scattering). Titan: orange (methane haze). Jupiter: deep blue (H2/He Rayleigh). Venus: yellowish-orange (thick CO2 haze). Try the Scattering Playground in the Learn panel to mix your own atmosphere and see the result."
+      }
+    }
+  },
+  "voyager-grand-tour": {
+    "title": "Voyager's Grand Tour",
+    "description": "Learn how a once-in-176-years planetary alignment let NASA send Voyager past all four gas giants and into interstellar space.",
+    "steps": {
+      "intro": {
+        "title": "The Grand Tour",
+        "content": "In the late 1970s, all four gas giants - Jupiter, Saturn, Uranus, and Neptune - aligned on the same side of the Sun. This rare configuration, occurring only once every 176 years, meant a spacecraft could visit all four planets using gravity assists from each one. NASA seized this window with the Voyager program."
+      },
+      "see-alignment": {
+        "title": "The 1977 Alignment",
+        "content": "We've jumped back to September 5, 1977 - the day Voyager 1 launched from Cape Canaveral. Look at the outer solar system: Jupiter, Saturn, Uranus, and Neptune are all on the same side of the Sun. They're not tightly clustered - they span nearly half the sky - but they're positioned so a spacecraft could visit each one in sequence, with each gravity assist redirecting toward the next. This window won't open again until ~2153."
+      },
+      "gravity-assist": {
+        "title": "Gravity Assist",
+        "content": "So how did Voyager exploit this alignment? Through gravity assists. By flying close to a planet, the spacecraft uses the planet's gravitational pull to change its speed and direction - like a slingshot. Each flyby steals a tiny fraction of the planet's orbital momentum. The planet slows by an imperceptible amount while the spacecraft receives an enormous speed boost, enough to reach the next target."
+      },
+      "focus-jupiter": {
+        "title": "Jupiter Flyby",
+        "content": "In March 1979, Voyager 1 flew past Jupiter. It discovered Jupiter's faint ring system and captured the first close-up images of volcanic eruptions on Io. Jupiter's immense gravity bent Voyager's trajectory and boosted its speed toward Saturn."
+      },
+      "focus-saturn": {
+        "title": "Saturn Flyby",
+        "content": "In November 1980, Voyager 1 reached Saturn. It revealed the astonishing complexity of Saturn's ring system and made a close pass of Titan, discovering its thick nitrogen atmosphere. But the Titan flyby redirected Voyager 1 out of the ecliptic plane - it could no longer visit Uranus or Neptune. Voyager 2 continued the Grand Tour alone."
+      },
+      "focus-voyager": {
+        "title": "Interstellar Space",
+        "content": "In August 2012, Voyager 1 crossed the heliopause - the boundary where the solar wind gives way to the interstellar medium. It became the first human-made object to enter interstellar space. It is still transmitting data using a 23-watt radio, the power of a refrigerator light bulb, received by 70-meter dishes on Earth."
+      },
+      "golden-record": {
+        "title": "The Golden Record",
+        "content": "Each Voyager carries a 12-inch gold-plated copper disc - a message in a bottle cast into the cosmic ocean. It contains greetings in 55 languages, music from Bach to Chuck Berry, whale songs, the sound of a mother's first words to her newborn, and 116 images of life on Earth. Carl Sagan's committee chose what to include: a portrait of humanity for anyone who might find it."
+      },
+      "conclusion": {
+        "title": "Into the Future",
+        "content": "The planetary alignment that made the Grand Tour possible will not repeat until approximately 2153. Both Voyagers will outlast Earth's civilization - their plutonium power will fade by the 2030s, but the spacecraft will drift on. In about 40,000 years, Voyager 1 will pass within 1.6 light-years of the star Gliese 445 in the constellation Camelopardalis."
+      }
+    }
+  }
+}

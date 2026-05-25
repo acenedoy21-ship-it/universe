@@ -1,0 +1,279 @@
+{
+  "ui": {
+    "stepOf": "Schritt {{current}} von {{total}}",
+    "skip": "Überspringen",
+    "continue": "Weiter",
+    "finish": "Beenden",
+    "waitingForAction": "Warte auf Aktion...",
+    "steps": "{{count}} Schritte",
+    "difficulty": {
+      "beginner": "Anfänger",
+      "intermediate": "Fortgeschritten",
+      "advanced": "Experte"
+    },
+    "minimize": "Minimieren",
+    "expand": "Erweitern"
+  },
+  "solar-system-tour": {
+    "title": "Schau dich im Sonnensystem um",
+    "description": "Orientiere dich mit den Planeten, sieh, wie leer der Weltraum wirklich ist, und erkunde die Erde und Jupiter aus der Nähe.",
+    "steps": {
+      "intro": {
+        "title": "Das Sonnensystem",
+        "content": "Willkommen! Du blickst auf unser Sonnensystem. Die Planeten werden größer als in Wirklichkeit dargestellt, damit du sie sehen kannst. Mal sehen, wie es wirklich aussieht..."
+      },
+      "true-scale": {
+        "title": "Der wahre Maßstab",
+        "content": "Das ist der wahre Maßstab – die Planeten sind so winzig, dass sie fast verschwinden! Der Weltraum ist größtenteils leer. Wir wechseln zurück zur übertriebenen Ansicht, damit du die Dinge tatsächlich sehen kannst."
+      },
+      "select-earth": {
+        "title": "Wähle die Erde aus",
+        "content": "Klicke in der Körperliste auf die Erde, oder finde sie in der 3D-Ansicht und klicke darauf."
+      },
+      "earth-info": {
+        "title": "Unser Heimatplanet",
+        "content": "Die Erde umkreist die Sonne in etwa 150 Millionen km Entfernung – eine Distanz, die als 1 Astronomische Einheit (AU) bezeichnet wird. Eine Umrundung dauert ein Jahr. Beachte die Infotafel, die ihre realen physikalischen Eigenschaften zeigt."
+      },
+      "select-jupiter": {
+        "title": "Finde Jupiter",
+        "content": "Klicke nun auf Jupiter – den größten Planeten. Er ist etwa 5-mal weiter von der Sonne entfernt als die Erde."
+      },
+      "done": {
+        "title": "Erkunde weiter!",
+        "content": "Du kannst jeden Körper auswählen, um seine Eigenschaften zu sehen. Öffne das Lernmenü in der Toolbar für weitere geführte Lektionen zum Spawnen von Objekten, zur Himmelsansicht und zu Gravitationsexperimenten."
+      }
+    }
+  },
+  "spawn-first-object": {
+    "title": "Spawne dein erstes Objekt",
+    "description": "Lerne, Himmelskörper zu erschaffen und beobachte, wie sie durch reale Gravitationsphysik interagieren.",
+    "steps": {
+      "intro": {
+        "title": "Reale Physik",
+        "content": "In GitUniverse gehorcht jedes Objekt, das du erschaffst, Newtons Gesetz der universellen Gravitation. Jeder Körper zieht jeden anderen Körper an. Lass uns das in Aktion sehen."
+      },
+      "open-spawn": {
+        "title": "Öffne das Spawn-Panel",
+        "content": "Klicke in der Toolbar auf die Schaltfläche \"$t(common:toolbar.spawnFull)\", um das Erstellungsfenster zu öffnen."
+      },
+      "place-object": {
+        "title": "Auswählen und Platzieren",
+        "content": "Wähle eine Voreinstellung (versuche es mit einem Gasriesen oder einem Gesteinsplaneten) und klicke dann in den Weltraum, um sie zu platzieren. Ziehe, um ihre Anfangsgeschwindigkeit einzustellen."
+      },
+      "unpause": {
+        "title": "Beobachte die Bewegung",
+        "content": "Lass nun die Simulation laufen und beobachte, wie dein Objekt durch die Schwerkraft mit den vorhandenen Planeten interagiert. Wenn die Simulation pausiert ist, drücke 'Play' oder die Leertaste, um fortzufahren."
+      },
+      "done": {
+        "title": "Newtons universelle Gravitation",
+        "content": "Jedes Objekt zieht jedes andere Objekt mit einer Kraft an, die proportional zu ihren Massen und umgekehrt proportional zum Quadrat des Abstands zwischen ihnen ist. Was du gerade gesehen hast, ist dieselbe Physik, die den Mond in der Umlaufbahn hält und Äpfel fallen lässt."
+      }
+    }
+  },
+  "sky-view-ecliptic": {
+    "title": "Himmelsansicht: Die Ekliptik",
+    "description": "Stehe auf der Erdoberfläche und entdecke, warum alle Planeten über den Himmel ausgerichtet sind – die Ekliptikebene.",
+    "steps": {
+      "intro": {
+        "title": "Ein Band über den Himmel",
+        "content": "Alte Astronomen bemerkten etwas Bemerkenswertes: Die Sonne, der Mond und alle sichtbaren Planeten folgen demselben schmalen Band über den Himmel. Sie nannten dieses Band die Ekliptik. Lass es uns selbst sehen."
+      },
+      "select-earth": {
+        "title": "Wähle die Erde aus",
+        "content": "Wähle zuerst die Erde aus der Körperliste aus, damit wir ihre Himmelsansicht betreten können."
+      },
+      "enter-sky-view": {
+        "title": "Himmelsansicht betreten",
+        "content": "Im Körperinformationsfeld klicke auf die Schaltfläche 'Himmelsansicht', um auf der Erdoberfläche zu stehen und zum Himmel zu schauen."
+      },
+      "look-around": {
+        "title": "Schau dich um",
+        "content": "Hier ist die Sonne! Ziehe, um dich am Himmel umzusehen. Du kannst Sterne und möglicherweise einige Planeten sehen. Beachte, wie die Planeten entlang desselben Bandes wie die Sonne gruppiert sind, anstatt zufällig verstreut zu sein."
+      },
+      "spot-planet": {
+        "title": "Finde einen Planeten",
+        "content": "Suche in der Körperliste nach sichtbaren Planeten. Klicke auf den Namen eines Planeten, um direkt darauf zu schauen. Beachte, wo er sich relativ zum Pfad der Sonne befindet."
+      },
+      "explain-ecliptic": {
+        "title": "Warum die Linie?",
+        "content": "Alle Planeten umkreisen die Sonne in nahezu derselben flachen Ebene – wie Murmeln, die auf einem Tisch rollen. Wenn du auf einer dieser Murmeln stehst und nach außen blickst, erscheinen die anderen Murmeln in einer Linie über deinem Himmel. Diese Linie ist die Ekliptik."
+      },
+      "ancient-knowledge": {
+        "title": "Altes Wissen der Astronomen",
+        "content": "Das Wort 'Planet' kommt aus dem Griechischen für 'Wanderer' – weil Planeten sich langsam entlang der Ekliptik bewegen, während die Sterne fest bleiben. Die Tierkreissternbilder sind diejenigen, die entlang dieses Bandes liegen. Seit Tausenden von Jahren war das Verfolgen dieser Wanderer eine der größten wissenschaftlichen Errungenschaften der Menschheit."
+      },
+      "done": {
+        "title": "Erkunde weitere Himmel",
+        "content": "Du kannst die Himmelsansicht über die Schaltfläche in der oberen linken Ecke verlassen. Versuche, die Himmelsansicht von anderen Planeten aus zu betreten – Mars, Jupiter oder sogar Merkur. Die Ekliptik wird von jeder Welt aus etwas anders aussehen, aber das Prinzip ist dasselbe."
+      }
+    }
+  },
+  "venus-jupiter-perturbation": {
+    "title": "Was wäre, wenn Venus Jupiter wäre?",
+    "description": "Entdecke, wie die Masse die Orbitalmechanik beeinflusst, indem du Venus in einen Gasriesen verwandelst und zusiehst, wie das Chaos ausbricht.",
+    "steps": {
+      "intro": {
+        "title": "Willkommen zum Experiment",
+        "content": "Lass uns erkunden, was passiert, wenn wir die Masse eines Planeten drastisch ändern. Wir werden Venus in etwas so Massives wie Jupiter verwandeln und beobachten, wie es das innere Sonnensystem beeinflusst."
+      },
+      "find-venus": {
+        "title": "Finde Venus",
+        "content": "Zuerst lokalisieren wir Venus – den zweiten Planeten von der Sonne. Klicke auf Venus in der Planetenliste oder in der 3D-Ansicht, um sie auszuwählen."
+      },
+      "explain-venus": {
+        "title": "Über Venus",
+        "content": "Venus ist in ihrer Größe der Erde ähnlich – etwa 0,815 Erdmassen. Sie umkreist die Sonne näher als wir. Aber was wäre, wenn sie viel, VIEL schwerer wäre?"
+      },
+      "click-replace": {
+        "title": "Venus ersetzen",
+        "content": "Klicke im Panel des ausgewählten Körpers auf die Schaltfläche 'Ersetzen'. Dies ermöglicht es uns, Venus durch etwas anderes auszutauschen, während sie in derselben Umlaufbahn bleibt."
+      },
+      "select-jupiter-preset": {
+        "title": "Mach sie massiv!",
+        "content": "Stelle im Spawn-Panel sicher, dass Planet ausgewählt ist, und ziehe den Größenregler ganz nach rechts, um Gasriese zu wählen – 318-mal die Masse der Erde, genauso viel wie Jupiter."
+      },
+      "confirm-replace": {
+        "title": "Änderung übernehmen",
+        "content": "Klicke nun auf 'Ersetzung anwenden', um Venus in einen Gasriesen zu verwandeln. Die Simulation wird fortgesetzt und du kannst zusehen, wie das Chaos ausbricht!"
+      },
+      "observe-perturbation": {
+        "title": "Beobachte das Chaos!",
+        "content": "Schau dir Merkur an! Die massive 'Venus' zieht ihn dramatisch an. Die Umlaufbahn der Erde wird ebenfalls beeinflusst. Das ist Gravitationsstörung in Aktion!"
+      },
+      "wait-for-effect": {
+        "title": "Vorspulen",
+        "content": "Lass uns etwa 3 simulierte Jahre zusehen, um die volle Wirkung zu sehen. Beschleunige die Zeit, wenn du es schneller sehen möchtest!"
+      },
+      "conclusion": {
+        "title": "Gravitationsstörung!",
+        "content": "Du hast gerade eine Gravitationsstörung miterlebt – wie ein massiver Körper die Umlaufbahnen naher Objekte stören kann. Jupiters Schwerkraft zerstreut einige Asteroiden von der Erde weg, kann aber auch andere näher heranstoßen. Seine Schwerkraft ist auch der Grund, warum der Asteroidengürtel nie zu einem Planeten geformt wurde. Die Schwerkraft massiver Körper formt alles um sie herum!"
+      }
+    }
+  },
+  "orbital-mechanics": {
+    "title": "Orbitalmechanik: Die Mathematik der Umlaufbahnen",
+    "description": "Entdecke die Gleichungen, die die Planetenbewegung bestimmen – von Keplers Gesetzen bis zur Fluchtgeschwindigkeit – mit interaktiven Demonstrationen.",
+    "steps": {
+      "intro": {
+        "title": "Die Mathematik hinter Umlaufbahnen",
+        "content": "Planeten bewegen sich nicht zufällig – sie folgen präzisen mathematischen Regeln, die über Jahrhunderte entdeckt wurden. In dieser Lektion lernst du die Gleichungen kennen, die jede Umlaufbahn im Universum vorhersagen, von Merkur bis zu fernen Exoplaneten."
+      },
+      "kepler-1": {
+        "title": "Keplers erstes Gesetz: Ellipsen",
+        "content": "Jeder Planet umkreist die Sonne in einer Ellipse, wobei die Sonne in einem Brennpunkt liegt. Die Exzentrizität (e) misst, wie gestreckt die Ellipse ist: 0 ist ein perfekter Kreis, näher an 1 ist sehr langgestreckt."
+      },
+      "find-mercury": {
+        "title": "Sieh eine elliptische Umlaufbahn",
+        "content": "Wähle Merkur aus der Körperliste aus, um die exzentrischste Umlaufbahn der inneren Planeten zu sehen. Beachte, wie seine Entfernung zur Sonne während seiner Umlaufbahn merklich variiert."
+      },
+      "kepler-2": {
+        "title": "Keplers zweites Gesetz: Gleiche Flächen",
+        "content": "Eine Linie von der Sonne zu einem Planeten überstreicht in gleichen Zeiten gleiche Flächen. Das bedeutet, Planeten bewegen sich schneller, wenn sie der Sonne näher sind (Perihel), und langsamer, wenn sie weiter entfernt sind (Aphel)."
+      },
+      "kepler-3": {
+        "title": "Keplers drittes Gesetz",
+        "content": "Das Quadrat der Umlaufzeit eines Planeten ist proportional zum Kubus seines mittleren Abstands von der Sonne. Weiter entfernte Planeten brauchen viel länger für eine Umrundung."
+      },
+      "newton": {
+        "title": "Newtons Gesetz der Gravitation",
+        "content": "Jedes Objekt zieht jedes andere Objekt mit einer Kraft an, die von beiden Massen (M und m) abhängt und mit dem Quadrat des Abstands (r) schwächer wird. Verdopple den Abstand, die Gravitation fällt auf ein Viertel."
+      },
+      "orbital-velocity": {
+        "title": "Orbitalgeschwindigkeit",
+        "content": "Für eine kreisförmige Umlaufbahn hängt die erforderliche Geschwindigkeit nur von der Masse des Zentralkörpers und dem Orbitalradius ab. Nähere Umlaufbahnen benötigen höhere Geschwindigkeiten."
+      },
+      "escape-velocity": {
+        "title": "Fluchtgeschwindigkeit",
+        "content": "Um der Schwerkraft eines Körpers vollständig zu entkommen, musst du die Fluchtgeschwindigkeit erreichen – genau das √2-Fache der kreisförmigen Orbitalgeschwindigkeit in dieser Entfernung. Unterhalb dieser Geschwindigkeit fällst du zurück."
+      },
+      "try-it": {
+        "title": "Probiere es selbst aus",
+        "content": "Öffne das $t(common:toolbar.spawn)-Panel und platziere ein Objekt im Sonnensystem. Versuche, ihm unterschiedliche Geschwindigkeiten zu geben – zu langsam und es fällt nach innen, zu schnell und es entweicht, genau richtig und es umkreist."
+      },
+      "watch": {
+        "title": "Beobachte deine Kreation",
+        "content": "Beobachte, wie sich dein Objekt bewegt. Umkreist es, entweicht es oder stürzt es ab? Dieselben Gleichungen, die du gerade gelernt hast, sagen seinen Weg genau voraus."
+      },
+      "conclusion": {
+        "title": "Das Universum läuft nach Mathematik",
+        "content": "Von Keplers geometrischen Gesetzen bis zu Newtons universeller Gravitation beschreiben diese Gleichungen jede Umlaufbahn – ob es die ISS ist, die die Erde umkreist, oder ein Komet, der auf die Sonne zufällt. Dieselbe Mathematik, die Merkurs Weg vorhersagt, führte auch Raumschiffe zum Pluto."
+      }
+    }
+  },
+  "rayleigh-scattering": {
+    "title": "Warum ist der Himmel blau?",
+    "description": "Entdecke, wie die Zusammensetzung der Atmosphäre die Himmelsfarbe durch Rayleigh-Streuung bestimmt – vom Blau der Erde bis zum Butterscotch des Mars.",
+    "steps": {
+      "intro": {
+        "title": "Licht und Atmosphäre",
+        "content": "Wenn Sonnenlicht in eine Atmosphäre eintritt, streuen Gasmoleküle es in alle Richtungen. Aber nicht alle Farben werden gleich gestreut – kürzere Wellenlängen (blau/violett) werden deutlich stärker gestreut als längere (rot/orange). Das nennt man Rayleigh-Streuung."
+      },
+      "lambda4": {
+        "title": "Das 1/lambda^4-Gesetz",
+        "content": "Die Intensität der Rayleigh-Streuung ist proportional zu 1/lambda^4. Das bedeutet, blaues Licht (440nm) wird etwa 5,5-mal stärker gestreut als rotes Licht (680nm). Violett wird noch stärker gestreut, aber unsere Augen sind dafür weniger empfindlich – daher sehen wir blau."
+      },
+      "select-earth": {
+        "title": "Wähle die Erde",
+        "content": "Lass uns die Rayleigh-Streuung in Aktion sehen. Wähle die Erde aus der Körperliste."
+      },
+      "earth-sky": {
+        "title": "Der blaue Himmel der Erde",
+        "content": "Betritt die Himmelsansicht, um den vertrauten blauen Himmel zu sehen. Die Erdatmosphäre besteht zu 78% aus Stickstoff und zu 21% aus Sauerstoff – beides farblose Gase. Die blaue Farbe entsteht ausschließlich durch die Rayleigh-Streuung des Sonnenlichts an diesen Molekülen."
+      },
+      "sunset": {
+        "title": "Warum Sonnenuntergänge rot sind",
+        "content": "Schau zur Sonne und beschleunige die Zeit. Wenn die Sonne zum Horizont sinkt, muss ihr Licht durch mehr Atmosphäre hindurch. Die blauen Wellenlängen werden auf diesem längeren Weg weggestreut, und es bleiben Rot und Orange übrig, die den Sonnenuntergang erzeugen."
+      },
+      "other-worlds": {
+        "title": "Andere Welten, andere Himmel",
+        "content": "Verlasse die Himmelsansicht. Nicht jeder Planet hat einen blauen Himmel. Mars hat eine dünne CO2-Atmosphäre mit Eisenoxid-Staubpartikeln. Diese Staubkörner sind größer als Gasmoleküle und streuen durch Mie-Streuung – die längere Wellenlängen bevorzugt. Das Ergebnis ist ein butterscotchfarbener Himmel."
+      },
+      "select-mars": {
+        "title": "Besuche den Mars",
+        "content": "Wähle jetzt den Mars aus und betritt seine Himmelsansicht, um den Unterschied zu sehen."
+      },
+      "conclusion": {
+        "title": "Himmelsfarben im Sonnensystem",
+        "content": "Jede Atmosphäre erzählt eine Geschichte durch ihre Himmelsfarbe. Erde: blau (N2/O2 Rayleigh-Streuung). Mars: butterscotch (Eisenoxid-Staub Mie-Streuung). Titan: orange (Methannebel). Jupiter: tiefblau (H2/He Rayleigh). Venus: gelblich-orange (dichter CO2-Dunst). Probiere den Streuungs-Spielplatz im Lernbereich, um deine eigene Atmosphäre zu mischen und das Ergebnis zu sehen."
+      }
+    }
+  },
+  "voyager-grand-tour": {
+    "title": "Voyagers Grand Tour",
+    "description": "Erfahre, wie eine nur alle 176 Jahre auftretende Planetenkonstellation es der NASA ermöglichte, Voyager an allen vier Gasriesen vorbei und in den interstellaren Raum zu schicken.",
+    "steps": {
+      "intro": {
+        "title": "Die Grand Tour",
+        "content": "Ende der 1970er Jahre standen alle vier Gasriesen – Jupiter, Saturn, Uranus und Neptun – auf derselben Seite der Sonne. Diese seltene Konstellation, die nur alle 176 Jahre vorkommt, ermöglichte es einem Raumschiff, alle vier Planeten mithilfe von Gravity-Assist-Manövern zu besuchen. Die NASA nutzte dieses Zeitfenster mit dem Voyager-Programm."
+      },
+      "see-alignment": {
+        "title": "Die Konstellation von 1977",
+        "content": "Wir sind zum 5. September 1977 gesprungen – dem Tag, an dem Voyager 1 von Cape Canaveral startete. Schau dir das äußere Sonnensystem an: Jupiter, Saturn, Uranus und Neptun stehen alle auf derselben Seite der Sonne. Sie stehen nicht eng beieinander – sie erstrecken sich über fast den halben Himmel – aber sie sind so positioniert, dass ein Raumschiff jeden nacheinander besuchen konnte, wobei jeder Gravity Assist zum nächsten Ziel umleitete. Dieses Zeitfenster wird sich erst um 2153 wieder öffnen."
+      },
+      "gravity-assist": {
+        "title": "Gravity Assist",
+        "content": "Wie nutzte Voyager diese Konstellation aus? Durch Gravity-Assist-Manöver. Beim nahen Vorbeiflug an einem Planeten nutzt das Raumschiff dessen Gravitationskraft, um Geschwindigkeit und Richtung zu ändern - wie eine Schleuder. Jeder Vorbeiflug stiehlt einen winzigen Bruchteil des Bahnimpulses des Planeten. Der Planet wird unmerklich langsamer, während das Raumschiff einen enormen Geschwindigkeitsschub erhält - genug, um das nächste Ziel zu erreichen."
+      },
+      "focus-jupiter": {
+        "title": "Jupiter-Vorbeiflug",
+        "content": "Im März 1979 flog Voyager 1 an Jupiter vorbei. Sie entdeckte Jupiters schwaches Ringsystem und machte die ersten Nahaufnahmen von Vulkanausbrüchen auf Io. Jupiters enorme Schwerkraft lenkte Voyagers Flugbahn ab und beschleunigte sie in Richtung Saturn."
+      },
+      "focus-saturn": {
+        "title": "Saturn-Vorbeiflug",
+        "content": "Im November 1980 erreichte Voyager 1 Saturn. Sie enthüllte die erstaunliche Komplexität des Ringsystems und flog dicht an Titan vorbei, wobei sie dessen dichte Stickstoffatmosphäre entdeckte. Doch der Titan-Vorbeiflug lenkte Voyager 1 aus der Ekliptikebene – sie konnte Uranus und Neptun nicht mehr besuchen. Voyager 2 setzte die Grand Tour allein fort."
+      },
+      "focus-voyager": {
+        "title": "Interstellarer Raum",
+        "content": "Im August 2012 durchquerte Voyager 1 die Heliopause – die Grenze, an der der Sonnenwind dem interstellaren Medium weicht. Sie wurde das erste von Menschen geschaffene Objekt im interstellaren Raum. Sie sendet immer noch Daten mit einem 23-Watt-Sender, der Leistung einer Kühlschranklampe, empfangen von 70-Meter-Antennen auf der Erde."
+      },
+      "golden-record": {
+        "title": "Die Goldene Schallplatte",
+        "content": "Jede Voyager trägt eine 30 cm große, vergoldete Kupferscheibe – eine Flaschenpost, geworfen in den kosmischen Ozean. Sie enthält Grüße in 55 Sprachen, Musik von Bach bis Chuck Berry, Walgesänge, die ersten Worte einer Mutter an ihr Neugeborenes und 116 Bilder des Lebens auf der Erde. Carl Sagans Komitee wählte den Inhalt: ein Porträt der Menschheit für jeden, der sie finden könnte."
+      },
+      "conclusion": {
+        "title": "In die Zukunft",
+        "content": "Die Planetenkonstellation, die die Grand Tour ermöglichte, wird sich erst im Jahr 2153 wiederholen. Beide Voyagers werden die irdische Zivilisation überdauern – ihre Plutonium-Energiequellen werden in den 2030er Jahren versiegen, aber die Raumsonden werden weiterdriften. In etwa 40.000 Jahren wird Voyager 1 bis auf 1,6 Lichtjahre an den Stern Gliese 445 im Sternbild Giraffe herankommen."
+      }
+    }
+  }
+}

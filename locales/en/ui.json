@@ -1,0 +1,262 @@
+{
+  "welcome": {
+    "title": "GitUniverse",
+    "subtitle": "Interactive Solar System Simulation",
+    "wip": "Work in Progress:",
+    "wipMessage": "This passion project is continuously evolving. Follow me for updates, or reach out if you want to beta test features or share ideas!",
+    "connectBluesky": "Connect on Bluesky",
+    "subscribeYoutube": "Subscribe on YouTube",
+    "buyMeACoffee": "buy me a coffee",
+    "startExploring": "Start Exploring",
+    "gotIt": "Got it",
+    "blurb": "An interactive solar system you can explore, perturb, and play with. Click around -- everything is meant to be touched.",
+    "whatsNew": "What's New",
+    "surveyPrompt": "Got 2 minutes? Tell us what you'd like to see next",
+    "changes": [
+      "Speed of Light lesson - watch light travel across the solar system",
+      "Rayleigh scattering - realistic sky colors and sunsets based on atmosphere composition",
+      "Bug fixes and translation loading improvements"
+    ]
+  },
+  "feedback": {
+    "sourceTitle": "Quick question",
+    "sourceDescription": "Where did you hear about GitUniverse? (optional)",
+    "sourceLabel": "Where did you hear about GitUniverse?",
+    "sourcePlaceholder": "YouTube (which channel?), Tiktok, friend, search...",
+    "featuresTitle": "Got suggestions?",
+    "featuresDescription": "What features would you like to see in GitUniverse?",
+    "featuresLabel": "Suggestions",
+    "featuresPlaceholder": "Anything you wish GitUniverse had...",
+    "submit": "Send",
+    "skip": "Skip",
+    "thankYou": "Thank you! I appreciate your feedback."
+  },
+  "betaTester": {
+    "title": "Want to be a beta tester?",
+    "description": "Hey - I don't actually know you, but locally I can see you've opened GitUniverse over {{threshold}} times, so I figured you might enjoy it. Would you like early access to new builds before they go public?",
+    "privacy": "This count is stored only in your browser. Nothing is sent unless you submit your email below.",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Sign me up",
+    "skip": "Not now",
+    "thankYou": "Thank you! I'll be in touch with the next beta build.",
+    "inlineTitle": "Beta tester program",
+    "inlineDesc": "You've opened GitUniverse a lot. Want early access to upcoming builds? Drop your email below.",
+    "registered": "You're signed up. Thanks!"
+  },
+  "changelog": {
+    "title": "GitUniverse {{version}}",
+    "whatsNew": "What's New in {{version}}"
+  },
+  "starEditor": {
+    "editStar": "Edit Star: {{name}}",
+    "starType": "{{spectralClass}}-type Star",
+    "mass": "Mass:",
+    "radius": "Radius:",
+    "luminosity": "Luminosity:",
+    "temperature": "Temperature:",
+    "advancedOverrides": "Advanced Overrides",
+    "overrideRadius": "Override Radius",
+    "overrideLuminosity": "Override Luminosity",
+    "habitableZone": "Habitable Zone",
+    "innerEdge": "Inner Edge:",
+    "optimal": "Optimal:",
+    "outerEdge": "Outer Edge:",
+    "applyChanges": "Apply Changes",
+    "stellarAge": "Age:",
+    "phase": "Phase:",
+    "mainSequenceLifetime": "MS Lifetime:",
+    "scaleTip": "Tip: enable True-to-Scale in Settings to see the star's actual expanded size. Normal mode caps star size so it doesn't overlap planet orbits, so an evolved star can look smaller than reality."
+  },
+  "performance": {
+    "title": "Performance",
+    "fps": "FPS",
+    "avg": "avg:",
+    "ms": "ms",
+    "rendering": "Rendering",
+    "drawCalls": "Draw Calls:",
+    "triangles": "Triangles:",
+    "geometries": "Geometries:",
+    "simulation": "Simulation",
+    "bodies": "Bodies:",
+    "physics": "Physics:",
+    "memory": "Memory",
+    "jsHeap": "JS Heap:",
+    "mb": "MB"
+  },
+  "help": {
+    "controls": "Controls",
+    "clickTap": "Click/Tap: Select body",
+    "orbit": "Orbit: Left-drag / 1-finger",
+    "pan": "Pan: Right-drag / 2-finger",
+    "zoom": "Zoom: Scroll / Pinch",
+    "space": "Space: Pause",
+    "aboutWelcome": "About / Welcome",
+    "privacy": "Privacy",
+    "analytics": "Analytics",
+    "analyticsDescription": "We use Umami, a privacy-focused analytics tool. Umami:",
+    "noCookies": "Does not use cookies",
+    "noPersonalData": "Does not collect personal data",
+    "noCrossSite": "Does not track across sites",
+    "dataNote": "We only collect anonymous, aggregated data (page views, browser type, country).",
+    "advanced": "Advanced",
+    "perfMonitor": "Performance Monitor",
+    "showEventHorizons": "Show Event Horizons",
+    "accurateEventHorizons": "Accurate Event Horizons",
+    "feedback": "Feedback",
+    "buyMeACoffee": "Buy me a coffee"
+  },
+  "dustCanvas": {
+    "drawing": "Drawing",
+    "simulating": "Simulating",
+    "clear": "Clear",
+    "play": "Play",
+    "drawMore": "Draw More",
+    "sound": "Sound",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off"
+  },
+  "skyView": {
+    "exitSkyView": "Exit Sky View",
+    "realSizes": "Real sizes",
+    "terrain": "Terrain",
+    "movement": "Movement",
+    "changeLocation": "Change location",
+    "visibleBodies": "Visible Bodies",
+    "noBodiesAboveHorizon": "No bodies above horizon",
+    "movementHint": "Drag to look around -- WASD to walk -- Shift to run",
+    "exitLessonEsc": "Exit lesson (Esc)",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "map": "Map"
+  },
+  "starComparison": {
+    "title": "Swap Star",
+    "sun": "Sun",
+    "stars": {
+      "sun": "Our home star - a G-type main sequence yellow dwarf",
+      "proximaCentauri": "Nearest star to the Sun - a dim red dwarf 4.2 light-years away",
+      "siriusA": "Brightest star in Earth's night sky - a hot white A-type star",
+      "arcturus": "Brightest star in the northern sky - an aging orange giant",
+      "aldebaran": "The eye of Taurus - a cool orange giant 65 light-years away",
+      "pollux": "Closest giant star to Earth - an orange giant with a confirmed exoplanet",
+      "rigel": "Blue supergiant in Orion - one of the most luminous stars visible to the naked eye",
+      "betelgeuse": "Red supergiant in Orion's shoulder - could explode as a supernova any time",
+      "antares": "Heart of Scorpius - a massive red supergiant nearing the end of its life",
+      "deneb": "Tail of Cygnus the Swan - an extremely luminous blue-white supergiant",
+      "vyCanisMajoris": "One of the largest known stars - a red hypergiant 1,420 times the Sun's radius",
+      "uyScuti": "Among the largest stars ever measured - a red supergiant 1,708 times the Sun's radius"
+    }
+  },
+  "skyViewTips": {
+    "eclipticTitle": "The Ecliptic",
+    "eclipticStep1": "Notice how all the planets line up across the sky? That's not a coincidence. They all orbit the Sun in nearly the same flat plane, called the ecliptic.",
+    "eclipticStep2": "Ancient astronomers noticed this band thousands of years ago. From any planet in the solar system, you'd see the other planets trace a similar path across your sky, since they all share nearly the same orbital plane.",
+    "showMe": "Show me",
+    "next": "Next",
+    "gotIt": "Got it"
+  },
+  "bodyList": {
+    "addAsteroids": "Add Asteroid Belt",
+    "removeAsteroids": "Remove"
+  },
+  "learn": {
+    "title": "Learn",
+    "guidedLessons": "Guided Lessons",
+    "quickTips": "Quick Tips",
+
+    "ecliptic": {
+      "title": "The Ecliptic",
+      "desc": "All planets orbit the Sun in nearly the same flat plane. From any surface in the solar system, they appear as a line across the sky.",
+      "action": "Select any planet, then tap Sky View to see it yourself."
+    },
+    "habitableZones": {
+      "title": "Habitable Zones",
+      "desc": "The region around a star where liquid water could exist on a planet's surface. Edit a star's properties and watch the zone shift.",
+      "action": "Select the Sun, then edit its mass or luminosity."
+    },
+    "gravity": {
+      "title": "Gravitational Interactions",
+      "desc": "Every object pulls on every other object. Spawn a massive body near a planet and watch real physics unfold.",
+      "action": "Open Spawn, create a Jupiter-mass planet near Earth."
+    },
+    "playgrounds": "Playgrounds",
+    "videos": {
+      "title": "Videos",
+      "channelTitle": "Watch on YouTube",
+      "channelDesc": "Tutorials, demos and behind-the-scenes for GitUniverse."
+    },
+    "scatteringPlayground": {
+      "title": "Scattering Playground",
+      "desc": "Mix atmospheric gases and see how sky color changes in real time. Explore the physics of Rayleigh and Mie scattering."
+    },
+    "missions": {
+      "happeningNow": "Happening Now",
+      "prelaunch": "Launches Soon",
+      "completed": "Mission Complete",
+      "missionDay": "Mission Day",
+      "distEarth": "From Earth",
+      "distMoon": "From Moon",
+      "speed": "Speed",
+      "crew": "Crew",
+      "showInSim": "Show in Simulation",
+      "launchCountdown": "Launching in"
+    }
+  },
+  "support": {
+    "title": "Support GitUniverse",
+    "description": "GitUniverse is a free educational tool. You can support the project by sharing it, or following along on YouTube, Substack, and Bluesky where I post development updates.",
+    "share": "Share this tool",
+    "coffee": "Buy me a coffee",
+    "copied": "Link copied!",
+    "sendSuggestions": "Send suggestions",
+    "reportBug": "Report a bug"
+  },
+  "crash": {
+    "title": "Something went wrong",
+    "description": "GitUniverse ran into an unexpected error. You can help us fix it by sending a report.",
+    "descriptionLabel": "What were you doing? (optional)",
+    "descriptionPlaceholder": "I was looking at Saturn when...",
+    "includeLogs": "Include recent logs",
+    "showDetails": "Show error details",
+    "hideDetails": "Hide error details",
+    "sendReport": "Send Report",
+    "reload": "Reload",
+    "cancel": "Cancel",
+    "thankYou": "Thank you! Your report will help us fix this.",
+    "emailLabel": "Email (optional)",
+    "emailPlaceholder": "So we can follow up with you",
+    "bugReportTitle": "Report a Bug",
+    "bugReportDescription": "Found something broken? Please be as detailed as possible -- what you were doing, what you expected, and what happened instead.",
+    "bugReportLabel": "What happened?",
+    "bugReportPlaceholder": "I was viewing Saturn's rings when the app froze..."
+  },
+  "quickTour": {
+    "askPrompt": "Want some tips to get started?",
+    "yes": "Sure",
+    "no": "No thanks",
+    "scale": {
+      "title": "Not to Scale",
+      "body": "Planets are enlarged so you can see them. Toggle this to see true sizes."
+    },
+    "spawn": {
+      "title": "Spawn",
+      "body": "Create stars, planets, and moons."
+    },
+    "time": {
+      "title": "Time",
+      "body": "Speed up, slow down, or pause."
+    },
+    "learn": {
+      "title": "Learn",
+      "body": "Guided lessons about space."
+    },
+    "map": {
+      "title": "Map",
+      "body": "Explore the Milky Way."
+    },
+    "next": "Next",
+    "gotIt": "Got it"
+  },
+  "stopTracking": "Stop tracking"
+}
